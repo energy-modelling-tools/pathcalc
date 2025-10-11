@@ -1,57 +1,40 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: About PathCalc
 permalink: /about/
 ---
-<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
-<div class="text-center fade-in-center">
-  <h2 class="alt-h3 mb-4">About FFRM </h2>
-  <div class="container-lg p-responsive py-4 py-md-6 ">
-    <div class="col-md-12 animate-out mb-2">
-      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-        <strong>FFRM</strong> utilises a Pyomo-based optimisation framework to endogenously calculate stranded cost, taking into consideration commercial and market issues. It uses projections for capacity and production of fossil fuel power plants to explore their retirement profile under two types of price regimes: PPA and Market Price regime. The model assesses at what capacity fossil fuel power plants become stranded and explores how this influences total compensation for stranded plants. 
-        
-        The model is designed to complement more detailed long-term capacity expansion models, such as OSeMOSYS, TIMES, LEAP, and others, but can also be used as a standalone retirement model. 
-      </p>
-    </div>
-    <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What does it aim to do?</h2>
-    <div class="col-md-12 animate-out mb-2">
-      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-      The objective function of the model is set as maximisation of the net revenue at the fossil fuel power plants fleet, based on either: 
-      
-      Financial analysis of Power Purchase Agreements (PPAs), where these are in place with known contractual terms. 
-      
-      Economic optimization of the market price, where marginal costs derived from a least-cost planning are considered. 
-      
-      The difference in net revenue between the BAU and a decarbonization scenario is used as a measure of foregone revenue. 
-      </p>
-    </div>
+
+<section class="bg-gray-light py-5 fade-in-center">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 mb-4 text-center">About PathCalc</h2>
+
+    <p><strong>PathCalc</strong> was developed in 2024 and is based on the MacKay Carbon Calculator framework. Users select ambition levels for each lever—representing key actions such as behaviour change or technology deployment—to generate and explore scenarios. These are derived from cost-optimised OSeMOSYS model runs, enabling interactive exploration of emissions, energy, and cost trade-offs.</p>
+
+    <h3 class="alt-h3 mt-4">What does it do?</h3>
+    <p>PathCalc is an interactive visualisation tool for exploring thousands of potential energy and emissions pathways. It uses pre-run cost-optimised scenarios from a flexible OSeMOSYS base model, allowing users to examine the impact of ambition levels on key metrics such as emissions and system costs.</p>
+
+    <h3 class="alt-h3 mt-4">Scope of the Model</h3>
+    <p>PathCalc applies a minimally constrained OSeMOSYS model, adaptable to any country context. Initial implementations are focused on Viet Nam and Laos, with plans to expand its geographical reach.</p>
+
+    <h3 class="alt-h3 mt-4">Target Audience</h3>
+    <p>PathCalc is designed for policymakers, technical experts, civil society, and the general public interested in understanding the implications of energy transition pathways. It bridges technical modelling and accessible visual storytelling to foster inclusive, data-driven dialogue.</p>
+
+    <h3 class="alt-h3 mt-4">Outcomes</h3>
+    <ul>
+      <li>Explore emissions and energy impacts of policy levers.</li>
+      <li>Compare alternative low-carbon strategies and ambition levels.</li>
+      <li>Support evidence-based policy planning and stakeholder engagement.</li>
+    </ul>
+
+    <h3 class="alt-h3 mt-4">Contribute</h3>
+    <p>Follow and contribute to PathCalc’s development through the official GitHub repository:</p>
+    <ul>
+      <li><a href="https://github.com/PathCalc" target="_blank">https://github.com/PathCalc</a></li>
+    </ul>
+
   </div>
-</div>
-
-<!-- Icon Links -->
-<div class="icon-links-section">
-  <div class="icon-links-wrapper">
-    <!-- GitHub Repository -->
-    <div class="icon-link-item">
-      <a href="https://github.com/FossilFuelRetirementModel/ffrm_python " target="_blank">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="80" height="80" alt="GitHub" />
-        <h3 class="aboutpage-subtitle text-primary">GitHub Repository</h3>
-      </a>
-    </div>
-
-    <!-- Model Documentation -->
-    <div class="icon-link-item">
-      <a href="https://ffrm-python.readthedocs.io/en/latest/index.html" target="_blank">
-        <img src="/assets/img/Rtdicon.png" width="80" height="80" alt="ReadTheDocs icon" />
-        <h3 class="aboutpage-subtitle text-primary">Model Documentation</h3>
-      </a>
-    </div>
-  </div>
-</div>
-
-  
+</section>
 
 <style>
 .fade-in-center {

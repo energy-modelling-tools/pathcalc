@@ -1,8 +1,27 @@
 # Partner institutions for homepage display
 partners:
-  - name: worldbank
-    logo: /assets/img/partners/worldbank.png
-    display_name: World Bank Group
-    url: https://www.worldbank.org/
-    
+  - name: ccg
+    logo: /assets/img/partners/CCG.png
+    display_name: Climate Compatible Growth (CCG)
+    url: https://climatecompatiblegrowth.com/
+
+  - name: adb
+    logo: /assets/img/partners/ADB.png
+    display_name: Asian Development Bank (ADB)
+    url: https://www.adb.org/
+
+  - name: desnz
+    logo: /assets/img/partners/DESNZ.png
+    display_name: Department for Energy Security and Net Zero (DESNZ)
+    url: https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero
+
+  - name: icl
+    logo: /assets/img/partners/ICL.jpg
+    display_name: Imperial College London
+    url: https://www.imperial.ac.uk/
+
+  - name: lu
+    logo: /assets/img/partners/LU.png
+    display_name: Loughborough University
+    url: https://www.lboro.ac.uk/
 

@@ -1,103 +1,23 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: Get Involved
 permalink: /contact/
 ---
 
 <section class="bg-gray-light py-5 fade-in-center">
-  <div class="container-lg p-responsive">
-    <div class="text-center mb-5">
-      <h2 class="alt-h2 mb-4">Get Involved</h2>
+  <div class="container-lg p-responsive text-center">
+    <h2 class="alt-h2 mb-4">Get Involved</h2>
+    <p>Follow the development and updates of PathCalc through our GitHub repository.</p>
+
+    <a href="https://github.com/PathCalc" target="_blank" class="btn btn-primary btn-lg mb-3">Visit PathCalc on GitHub →</a>
+
+    <div class="social-links mt-4">
+      <p class="text-gray">Additional channels will be added soon.</p>
     </div>
-
-    <!-- Section 1: Community Engagement -->
-    <div class="involvement-section mb-5">
-      <h3 class="section-title text-center mb-4">💬 Join Our Community</h3>
-      
-      <!-- Discourse Link at the start
-      --> 
-      <div class="text-center mb-4">
-        <a href="https://forum.u4ria.org/" target="_blank" class="btn btn-primary btn-lg">
-          Visit the Discourse Forum →
-        </a>
-      </div>
-
-      <p class="text-center lead mb-4">
-        Join other FFRM practitioners by becoming part of our Discourse community—a dedicated online space for collaboration, learning, and sharing.
-      </p>
-
-      <!-- Centered platform benefits -->
-      <div class="text-center mb-4">
-        <h4 class="platform-benefits-title">This platform allows members to:</h4>
-      </div>
-
-      <div class="benefits-container">
-        <div class="benefit-card text-center">
-          {% octicon tools height:40 class:"fill-blue mb-3" aria-label:tools %}
-          <h5>Troubleshoot Models</h5>
-          <p class="text-gray">Share challenges, seek advice, and collaborate with other users to overcome technical hurdles in your FFRM applications.</p>
-        </div>
-        <div class="benefit-card text-center">
-          {% octicon checklist height:40 class:"fill-blue mb-3" aria-label:checklist %}
-          <h5>Share Publications</h5>
-          <p class="text-gray">Showcase your research, explore the work of others, and contribute to the expanding body of knowledge on integrated systems modeling.</p>
-        </div>
-        <div class="benefit-card text-center">
-          <img src="/assets/img/sparkles.svg" height="40" class="mb-3" alt="Events">
-          <h5>Stay Updated on Events</h5>
-          <p class="text-gray">Be the first to know about upcoming capacity-building workshops, webinars, and networking opportunities.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Section 2: Technical Contributions -->
-    <div class="involvement-section">
-      <h3 class="section-title text-center mb-4">🛠️ Contribute to Development</h3>
-      
-      <div class="github-container">
-        <div class="unified-github-card text-center">
-          <a href=" https://github.com/FossilFuelRetirementModel/ffrm_python" target="_blank" class="github-link">
-            <svg height="80" viewBox="0 0 16 16" version="1.1" width="80" aria-hidden="true" class="mb-3">
-              <path fill-rule="evenodd" fill="#0366d6" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 
-              6.53 5.47 7.59.4.07.55-.17.55-.38 
-              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-              -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 
-              2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 
-              0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 
-              0 0 .67-.21 2.2.82.64-.18 1.32-.27 
-              2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 
-              2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 
-              1.27.82 2.15 0 3.07-1.87 3.75-3.65 
-              3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 
-              2.2 0 .21.15.46.55.38A8.013 8.013 
-              0 0016 8c0-4.42-3.58-8-8-8z"></path>
-            </svg>
-            <h4 class="text-primary mt-2 mb-4">Contribute to FFRM on GitHub</h4>
-          </a>
-          
-          <div class="contribution-section text-left">
-            <h5>Contribute to This Website</h5>
-            <p>
-              Want to share your FFRM-related work, training, or resources? We welcome external contributions to this site!
-            </p>
-            <h6>How to contribute:</h6>
-            <ul class="contribution-steps">
-              <li>Fork the repository: <a href=" https://github.com/FossilFuelRetirementModel/ffrm_python" target="_blank">github.com/FossilFuelRetirementModel/ffrm_python </a></li>
-              <li>Edit or add content (e.g. publications, capacity building activities)</li>
-              <li>Submit a pull request</li>
-              <li>A site administrator will review and approve if appropriate</li>
-            </ul>
-            <p class="text-muted">
-              This website exists to grow a self-sustaining FFRM community—open to all. Let's make sure your work is visible and contributes to the global ecosystem!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
+
 
 <style>
 /* Enhanced Get Involved Page Styling */

@@ -1,87 +1,30 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: Applications
 permalink: /applications/
 ---
-<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
-  <div class="text-center fade-in-center">
-    <h2 class="alt-h2 mb-4">FFRM Applications</h2>
-  </div>
 
-  <div class="applications-content text-left">
-    <p class="lead mb-4">FFRM is a useful tool for assessing the stranded cost implications that may arise as a country decarbonizes its electricity sector. The model was originally developed by the World Bank to assess stranded cost under various defined scenarios, with its most recent application in exploring the stranded cost implications of decarbonizing India and the Philippines power sector. </p>
+<section class="bg-gray-light py-5 fade-in-center">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 mb-4 text-center">Applications of PathCalc</h2>
+    <p class="text-center">PathCalc is designed to be replicable across countries and adaptable to government, industry, and academic contexts. Examples include:</p>
 
-    <!--
-     <div class="applications-grid">
-      <div class="application-category">
-        <h3 class="category-title">Governments</h3>
-        <ul class="application-list">
-          <li><a href="https://energypedia.info/wiki/LTEM_-_Energy_Department_of_the_Cyprus_Institute">National Energy and Climate Plan in Cyprus</a></li>
-        </ul>  
-      </div>
+    <h3 class="alt-h3 mt-5">Governments</h3>
+    <p>Used in Laos and Viet Nam to support energy transition planning and visualisation of low-carbon pathways.</p>
 
-      <div class="application-category">
-        <h3 class="category-title">Industry and Think Tanks</h3>
-        <ul class="application-list">
-          <li><a href="https://www.globalccsinstitute.com/wp-content/uploads/2021/10/genzo1123.pdf">Global CCS Institute</a></li>
-        </ul>
-      </div>
+    <h3 class="alt-h3 mt-5">Academia</h3>
+    <p>Provides a bridge between quantitative modelling (OSeMOSYS) and accessible scenario communication for teaching and research.</p>
 
-      <div class="application-category">
-        <h3 class="category-title">Academia</h3>
-        <ul class="application-list">
-          <li><a href="https://kth.diva-portal.org/smash/get/diva2:1576316/FULLTEXT01.pdf">Politecnico di Milano – 
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+    <ul>
+      <li><a href="https://pathcalc.github.io/pathcalc-web/?scenario=avoid%3A2%3Bshift%3A3%3Bimprove%3A4%3Btransform%3A4%3Bcosts%3A2" target="_blank">Laos Transport Pathways</a></li>
+      <li><em>Viet Nam Pathways – TBC</em></li>
+    </ul>
 
- <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
-  <div class="text-center mb-5">
-    <h2 class="alt-h2">Specialist versions of the tool</h2>
-  </div>
+    <h3 class="alt-h3 mt-5">Industry and Think Tanks</h3>
+    <p>PathCalc supports dialogue and transparency in transition planning by visualising system trade-offs and co-benefits across policy options.</p>
 
-  <div class="slider-wrapper my-5">
-    <div class="arrow arrow-left" onclick="slideTextPrev()">‹</div>
-
-    <div class="slider-container">
-      <div class="slider" id="textSlider">
-        <div class="slide-card">
-          <h3>OSeMOSYS Global</h3>
-          <p><a href="https://osemosys-global.readthedocs.io/en/latest/" target="_blank">Open-source global electricity model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>GENESYS-MOD</h3>
-          <p><a href="https://git.tu-berlin.de/genesysmod/genesys-mod-public" target="_blank">Modular European decarbonisation model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>TEMBA</h3>
-          <p><a href="https://zenodo.org/records/3521841" target="_blank">The African electricity model base</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>OSeMBE</h3>
-          <p><a href="https://github.com/HauHe/OSeMBE" target="_blank">Open Source energy Model – Base for Europe</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>SAMBA</h3>
-          <p><a href="http://www.osemosys.org/samba.html" target="_blank">Southern African Model Base for Analysis</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="arrow arrow-right" onclick="slideTextNext()">›</div>
-  </div>
-
-  <div class="slider-dots text-center mt-3" id="sliderDots"></div>
-</section>
--->
-
+<!--
 <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
   <div class="recommended-reading">
     <h2 class="alt-h2 text-center mb-4">Recommended Reading</h2>
@@ -111,7 +54,7 @@ permalink: /applications/
   </div>
   
 </section>
-
+-->
 <style>
 /* Enhanced Applications Page Styling */
 .applications-content {
