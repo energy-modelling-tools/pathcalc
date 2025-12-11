@@ -10,6 +10,8 @@ permalink: /contact/
     <h2 class="alt-h2 mb-4">Get Involved</h2>
     <p>Follow the development and updates of PathCalc through our GitHub repository.</p>
 
+    {% include forum_cta.html %}
+
     <a href="https://github.com/PathCalc" target="_blank" class="btn btn-primary btn-lg mb-3">Visit PathCalc on GitHub →</a>
 
     <div class="social-links mt-4">
