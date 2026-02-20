@@ -4,24 +4,29 @@ partners:
     logo: /assets/img/partners/ccg.svg
     display_name: Climate Compatible Growth (CCG)
     url: https://climatecompatiblegrowth.com/
+    height: 80
 
   - name: adb
     logo: /assets/img/partners/adb.svg
     display_name: Asian Development Bank (ADB)
     url: https://www.adb.org/
+    height: 80
 
   - name: desnz
     logo: /assets/img/partners/desnz.svg
     display_name: Department for Energy Security and Net Zero (DESNZ)
     url: https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero
+    height: 80
 
   - name: icl
     logo: /assets/img/partners/icl.svg
     display_name: Imperial College London
     url: https://www.imperial.ac.uk/
+    height: 80
 
   - name: lu
     logo: /assets/img/partners/lu.svg
     display_name: Loughborough University
     url: https://www.lboro.ac.uk/
+    height: 80
 
