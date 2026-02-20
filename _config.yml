@@ -7,7 +7,7 @@
 
 # global settings
 title: PathCalc
-logo: "/assets/img/logos/PathCalc.svg"
+logo: "/assets/img/logos/pathcalc.svg"
 description: "GitHub helps government build software better, together"
 baseurl: "/pathcalc"
 permalink: "/stories/:title"
